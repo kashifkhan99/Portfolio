@@ -190,3 +190,39 @@ body{
 }
 
 
+/* center-part */
+
+.center-part{
+
+    position: absolute;
+    top: 625px;
+    left: 150px;
+    z-index: 1;
+    background-color: #2d2d35; 
+    width: 85%;
+    height: 13%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+}
+
+.center-part .box-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center-part .box-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center-part .box-three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
