@@ -192,37 +192,61 @@ body{
 
 /* center-part */
 
-.center-part{
-
+.center-container{
     position: absolute;
-    top: 625px;
-    left: 150px;
-    z-index: 1;
-    background-color: #2d2d35; 
-    width: 85%;
-    height: 13%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-    
-    
+    top: 630px;
+    left: 170px;
+    background-color: #3f3e50;
+    width: 1500px;
+    height: 150px;
 }
 
-.center-part .box-one{
+.center-container .boxes{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
 }
 
-.center-part .box-two{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.boxes .meta{
+    background-color: #2c2c35;
+    
+    width: 150px;
+    height: 70px;
 }
 
-.center-part .box-three{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.meta img{
+    padding: 5px 25px;
 }
+
+
+.boxes .google{
+    background-color: #2c2c35;
+    
+    width: 150px;
+    height: 70px;
+}
+
+.google img{
+    padding: 10px 25px;
+}
+
+.boxes .linkdin{
+    background-color: #2c2c35;
+    width:150px;
+    height:70px;
+}
+
+.linkdin .img{
+    padding: 10px 0px;
+}
+.boxes .slack{
+    background-color: #2c2c35;
+    width:150px;
+    height:70px;
+}
+
+.lslack .img{
+    padding: 10px 0px;
+}
+
+
