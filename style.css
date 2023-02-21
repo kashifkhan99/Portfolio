@@ -205,6 +205,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items:center;
+    margin: 50px;
 }
 
 .boxes .meta{
@@ -227,7 +228,7 @@ body{
 }
 
 .google img{
-    padding: 10px 25px;
+    padding: 5px 25px;
 }
 
 .boxes .linkdin{
@@ -237,16 +238,17 @@ body{
 }
 
 .linkdin .img{
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 .boxes .slack{
+    margin: 10px 40px;
     background-color: #2c2c35;
     width:150px;
     height:70px;
 }
 
-.lslack .img{
-    padding: 10px 0px;
+.slack .img{
+    padding: 5px 20px;
 }
 
 
