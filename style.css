@@ -28,7 +28,7 @@ body{
 
 .nav-logo i{
     padding: 10px;
-    color: rgb(226, 152, 14);
+    color:rgb(245, 160, 2);
  
 }
 
@@ -98,7 +98,7 @@ body{
     content: '';
     width: 200px;
     height: 5px;
-    background-color: rgb(255, 166, 0);
+    background-color:rgb(245, 160, 2);
     position: relative;
     top: 15px; 
 }
@@ -131,12 +131,12 @@ body{
     
 }
 
- .picture span{
+ /* .picture span{
     background-color: #170fad;
     border-radius: 50%;
     height: 200px;
     width: 400px;
-}
+} */
 
 /* right-side */
 
@@ -161,14 +161,14 @@ body{
 .btn-one button{
     
     border: none;
-    color: rgb(255, 174, 0);
+    color: rgb(245, 160, 2);
     background-color: transparent;
     font-size: 18px;
 
 }
 
 .btn-one i{
-    color: rgb(255, 166, 0);
+    color:rgb(245, 160, 2);
 }
 
 .right-icons{
@@ -176,10 +176,10 @@ body{
 }
 
 .right-icons i {
-    color: rgb(255, 166, 0);
+    color:rgb(245, 160, 2);
     padding: 0px 4px;
     margin: 25px 25px 0 0;
-    color: rgb(255, 166, 0);
+    color:rgb(245, 160, 2);
     background-color: #3f3e50;
     display: flex;
     justify-content: center;
@@ -195,9 +195,9 @@ body{
 .center-container{
     position: absolute;
     top: 630px;
-    left: 170px;
+    left: 90px;
     background-color: #3f3e50;
-    width: 1500px;
+    width: 1730px;
     height: 150px;
 }
 
@@ -258,12 +258,32 @@ body{
 .third-part{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #2c2c35;
+    width: 100%;
+    height: 700px;
 }
+
 
 .third-part .left-content{
     margin-left: 90px;
 }
+
+.top-part{
+color: aliceblue;
+
+}
+
+.top-part h2{
+    font-size: 45px;
+    font-weight: lighter;
+    line-height: 60px;
+}
+
+.top-part p{
+    opacity: 0.7;
+}
+
 
 
 
@@ -274,3 +294,149 @@ body{
     grid-template-columns: auto auto;
 }
 
+.text-one h2{
+    color:rgb(245, 160, 2);
+}
+
+.text-one p{
+    color: aliceblue;
+    opacity: 0.7;
+}
+
+.text-two h2{
+    color:rgb(245, 160, 2);
+}
+
+.text-two p{
+    color: aliceblue;
+    opacity: 0.7;
+}
+
+.text-three h2{
+    color:rgb(245, 160, 2);
+}
+
+.text-three p{
+    color: aliceblue;
+    opacity: 0.7;
+}
+
+.text-four h2{
+    color:rgb(245, 160, 2);
+}
+
+.text-four p{
+    color: aliceblue;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+/* right-content ka box 1 */
+
+.third-part .right-content{
+    margin-right: 200px;
+}
+
+.right-content .box-one{
+    display: flex;
+
+    
+}
+
+.box-one .ui-text{
+    position: relative;
+    top: 20px;
+    left: 30px; 
+}
+
+.ui-text h3{
+font-size: 30px;
+color: aliceblue;
+font-weight: lighter;
+margin: 0px;
+}
+
+.box-one p{
+    color: aliceblue;
+    opacity: 0.7;
+}
+
+
+.box-one i{
+    color:rgb(245, 160, 2);
+    position: relative;
+    top: 55px;
+    left: 215px;
+    font-size: 30px;
+
+}
+
+/* right-content ka box 2 */
+
+.right-content .box-two{
+    display: flex;
+    margin: 30px 0px;
+    
+}
+
+.box-two .front-text{
+    position: relative;
+    top: 20px;
+    left: 30px; 
+}
+
+.front-text h3{
+font-size: 30px;
+color: aliceblue;
+font-weight: lighter;
+margin: 0px;
+}
+
+.front-text p{
+    color: aliceblue;
+    opacity: 0.7;
+}
+
+.box-two i{
+    color:rgb(245, 160, 2);
+    position: relative;
+    top: 55px;
+    left: 140px;
+    font-size: 30px;
+}
+
+/* right-content ka box 3 */
+
+.right-content .box-three{
+    display: flex;
+}
+
+.box-three .back-text{
+    position: relative;
+    top: 20px;
+    left: 30px; 
+}
+
+.box-three h3{
+    font-size: 30px;
+color: aliceblue;
+font-weight: lighter;
+margin: 0px;
+}
+
+.box-three p{
+    color: aliceblue;
+    opacity: 0.7;
+}
+
+.box-three i{
+    color:rgb(245, 160, 2);
+    position: relative;
+    top: 55px;
+    left: 110px;
+    font-size: 30px;
+}
