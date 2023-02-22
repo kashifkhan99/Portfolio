@@ -253,3 +253,24 @@ body{
 }
 
 
+/* third-part */
+
+.third-part{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2c2c35;
+}
+
+.third-part .left-content{
+    margin-left: 90px;
+}
+
+
+
+/* bottom-text */
+
+.left-content .bottom-part{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
