@@ -144,14 +144,17 @@ body {
     font-size: 22px;
     color: aliceblue;
     opacity: 0.7;
+
 }
 
 
 .btn-one button {
+
     border: none;
     color: rgb(245, 160, 2);
     background-color: transparent;
     font-size: 18px;
+
 }
 
 .btn-one i {
@@ -194,6 +197,7 @@ body {
     justify-content: space-around;
     align-items: center;
     margin: 35px;
+
 }
 
 .boxes .meta {
@@ -231,6 +235,7 @@ body {
     position: relative;
     bottom: 11px;
     left: 19px;
+
 }
 
 .boxes .slack {
@@ -323,7 +328,11 @@ body {
     color: aliceblue;
     opacity: 0.7;
 }
-ß
+
+
+
+
+
 
 /* right-content ka box 1 */
 
