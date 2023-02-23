@@ -84,7 +84,6 @@ body {
     top: 90px;
     opacity: 0.5;
     font-weight: lighter;
-
 }
 
 
@@ -96,8 +95,8 @@ body {
 .left-text h2::after {
     display: block;
     content: '';
-    width: 200px;
-    height: 5px;
+    height: 5px;   
+    width: 190px;
     background-color: rgb(245, 160, 2);
     position: relative;
     top: 15px;
@@ -111,17 +110,12 @@ body {
     opacity: 0.7;
 }
 
-
 .content-one .picture {
     position: relative;
     right: 80px;
     background-color: #2c2c35;
     border-radius: 50%;
-
 }
-
-
-
 
 .content-one .picture img {
     width: 550px;
@@ -129,7 +123,6 @@ body {
     position: relative;
     top: 20px;
     right: 30px;
-
 }
 
 
@@ -151,17 +144,14 @@ body {
     font-size: 22px;
     color: aliceblue;
     opacity: 0.7;
-
 }
 
 
 .btn-one button {
-
     border: none;
     color: rgb(245, 160, 2);
     background-color: transparent;
     font-size: 18px;
-
 }
 
 .btn-one i {
@@ -204,7 +194,6 @@ body {
     justify-content: space-around;
     align-items: center;
     margin: 35px;
-
 }
 
 .boxes .meta {
@@ -228,7 +217,7 @@ body {
 }
 
 .google img {
-    padding: 18px 29px;
+    padding: 17px 32px;
 }
 
 .boxes .linkdin {
@@ -240,9 +229,8 @@ body {
 
 .linkdin img {
     position: relative;
-    bottom: 10px;
-    left: 17px;
-
+    bottom: 11px;
+    left: 19px;
 }
 
 .boxes .slack {
@@ -335,16 +323,12 @@ body {
     color: aliceblue;
     opacity: 0.7;
 }
-
-
-
-
-
+ß
 
 /* right-content ka box 1 */
 
 .third-part .right-content {
-    margin-top: 80px;
+    margin-top: 90px;
     margin-right: 90px;
     width: 633px;
 }
