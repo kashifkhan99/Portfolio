@@ -196,7 +196,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 35px;
+    margin: 35px 0px 0px 40px;
 
 }
 
@@ -537,7 +537,7 @@ body {
 
 .last-section .card-three{
     margin-right: 90px;
-    background-color: #36363a;
+    background-color: #404046;
     width: 370px;
     height: 270px;
 }
